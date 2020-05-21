@@ -12,7 +12,12 @@ export default {
   name: 'App',
   components: {
     HelloWorld
-  }
+  },
+  mounted() {
+    // eslint-disable-next-line
+    let a = 'a'
+    
+  },
 }
 </script>
 
