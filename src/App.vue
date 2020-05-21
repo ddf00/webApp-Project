@@ -14,9 +14,8 @@ export default {
     HelloWorld
   },
   mounted() {
-    // eslint-disable-next-line
     let a = 'a'
-    
+    ..
   },
 }
 </script>
