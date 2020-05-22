@@ -1,15 +1,14 @@
 <template>
   <div>
-      <h1>Search</h1>
+      <h1>ratings</h1>
   </div>
 </template>
 
 <script type="text/ecmascript-6">
   export default {
-     name: 'Search'
+     name: 'ratings',
   }
 </script>
-
 <style lang="less" scoped>
 
  

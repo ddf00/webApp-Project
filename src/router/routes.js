@@ -1,20 +1,22 @@
+import seller from "pages/seller";
+import ratings from "pages/ratings";
+import goods from "pages/goods";
 
-import Home from "@/pages/Home";
-import Search from "@/pages/Search";
-import Admin from "@/pages/Admin";
 
-
-export default [
-    {
-        path: '/',
-        component: Home 
+export default [{
+        path: '/ratings',
+        component: ratings
     },
     {
-        path: '/search',
-        component: Search
+        path: '/goods',
+        component: goods
     },
     {
-        path: '/admin',
-        component: Admin
+        path: '/seller',
+        component: seller
+    },
+    {
+        path: "/",
+        redirect: "/goods"
     }
 ]
